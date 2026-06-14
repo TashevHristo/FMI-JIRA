@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Commands">
+      <UniqueIdentifier>{c7068f36-c203-4493-81c9-5f85f424832b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Commands\Users">
+      <UniqueIdentifier>{09cbbd74-a529-4929-a1f3-b99f16d68d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Commands\Student">
+      <UniqueIdentifier>{081ddbac-924d-446a-973e-e40041e1469d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Commands\TeachingAssistant">
+      <UniqueIdentifier>{b7476de0-be05-47e0-992b-89f2c764ff2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Commands\Lecturer">
+      <UniqueIdentifier>{6bdac757-6163-4c7c-b6e0-0060345940bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Commands\Admin">
+      <UniqueIdentifier>{1144a1d1-b2b3-431f-ab84-1840f9191cb6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FMI JIRA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Project.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Date.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Task.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Comment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TeachingAssistant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecturer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Administrator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoutCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewProfileCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JoinProjectCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ListProjectsCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ListTasksCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateTaskCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssignTaskCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeStatusCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddCommentCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTasksCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddTagCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UpcomingTasksCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ApproveTaskCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReviewTaskCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StartStageCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FinishStageCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveTaskToStageCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StageReportCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangePriorityCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ListAllProjectsCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ListAllTasksCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GradeTaskCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentReportCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FinalizeProjectCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateProjectCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArchiveProjectCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddUserToProjectCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveUserCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchTasksCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterTasksCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="User.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ITaskApprover.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IStageManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IProjectManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectStatus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Roles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Project.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Date.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StageStatus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskEnums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Comment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Student.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TeachingAssistant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lecturer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Administrator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginCommand.h">
+      <Filter>Header Files\Commands\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoutCommand.h">
+      <Filter>Header Files\Commands\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewProfileCommand.h">
+      <Filter>Header Files\Commands\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="JoinProjectCommand.h">
+      <Filter>Header Files\Commands\Student</Filter>
+    </ClInclude>
+    <ClInclude Include="ListProjectsCommand.h">
+      <Filter>Header Files\Commands\Student</Filter>
+    </ClInclude>
+    <ClInclude Include="ListTasksCommand.h">
+      <Filter>Header Files\Commands\Student</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateTaskCommand.h">
+      <Filter>Header Files\Commands\Student</Filter>
+    </ClInclude>
+    <ClInclude Include="ParseHelpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AssignTaskCommand.h">
+      <Filter>Header Files\Commands\Student</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeStatusCommand.h">
+      <Filter>Header Files\Commands\Student</Filter>
+    </ClInclude>
+    <ClInclude Include="AddCommentCommand.h">
+      <Filter>Header Files\Commands\Student</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTasksCommand.h">
+      <Filter>Header Files\Commands\Student</Filter>
+    </ClInclude>
+    <ClInclude Include="AddTagCommand.h">
+      <Filter>Header Files\Commands\Student</Filter>
+    </ClInclude>
+    <ClInclude Include="UpcomingTasksCommand.h">
+      <Filter>Header Files\Commands\Student</Filter>
+    </ClInclude>
+    <ClInclude Include="ApproveTaskCommand.h">
+      <Filter>Header Files\Commands\TeachingAssistant</Filter>
+    </ClInclude>
+    <ClInclude Include="ReviewTaskCommand.h">
+      <Filter>Header Files\Commands\TeachingAssistant</Filter>
+    </ClInclude>
+    <ClInclude Include="StartStageCommand.h">
+      <Filter>Header Files\Commands\TeachingAssistant</Filter>
+    </ClInclude>
+    <ClInclude Include="FinishStageCommand.h">
+      <Filter>Header Files\Commands\TeachingAssistant</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveTaskToStageCommand.h">
+      <Filter>Header Files\Commands\TeachingAssistant</Filter>
+    </ClInclude>
+    <ClInclude Include="StageReportCommand.h">
+      <Filter>Header Files\Commands\TeachingAssistant</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangePriorityCommand.h">
+      <Filter>Header Files\Commands\TeachingAssistant</Filter>
+    </ClInclude>
+    <ClInclude Include="ListAllProjectsCommand.h">
+      <Filter>Header Files\Commands\Lecturer</Filter>
+    </ClInclude>
+    <ClInclude Include="ListAllTasksCommand.h">
+      <Filter>Header Files\Commands\Lecturer</Filter>
+    </ClInclude>
+    <ClInclude Include="GradeTaskCommand.h">
+      <Filter>Header Files\Commands\Lecturer</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentReportCommand.h">
+      <Filter>Header Files\Commands\Lecturer</Filter>
+    </ClInclude>
+    <ClInclude Include="FinalizeProjectCommand.h">
+      <Filter>Header Files\Commands\Lecturer</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateProjectCommand.h">
+      <Filter>Header Files\Commands\Admin</Filter>
+    </ClInclude>
+    <ClInclude Include="ArchiveProjectCommand.h">
+      <Filter>Header Files\Commands\Admin</Filter>
+    </ClInclude>
+    <ClInclude Include="AddUserToProjectCommand.h">
+      <Filter>Header Files\Commands\Admin</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveUserCommand.h">
+      <Filter>Header Files\Commands\Admin</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisterCommand.h">
+      <Filter>Header Files\Commands\Admin</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveCommand.h">
+      <Filter>Header Files\Commands\Admin</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadCommand.h">
+      <Filter>Header Files\Commands\Admin</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandHandler.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchTasksCommand.h">
+      <Filter>Header Files\Commands\Student</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterTasksCommand.h">
+      <Filter>Header Files\Commands\Student</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

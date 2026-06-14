@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{8a481c18-2d57-4cc1-bc48-61c474bedb18}</ProjectGuid>
+    <RootNamespace>FMIJIRA</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp23</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AddCommentCommand.cpp" />
+    <ClCompile Include="AddTagCommand.cpp" />
+    <ClCompile Include="AddUserToProjectCommand.cpp" />
+    <ClCompile Include="Administrator.cpp" />
+    <ClCompile Include="ApproveTaskCommand.cpp" />
+    <ClCompile Include="ArchiveProjectCommand.cpp" />
+    <ClCompile Include="AssignTaskCommand.cpp" />
+    <ClCompile Include="ChangePriorityCommand.cpp" />
+    <ClCompile Include="ChangeStatusCommand.cpp" />
+    <ClCompile Include="CommandHandler.cpp" />
+    <ClCompile Include="Comment.cpp" />
+    <ClCompile Include="CreateProjectCommand.cpp" />
+    <ClCompile Include="CreateTaskCommand.cpp" />
+    <ClCompile Include="Date.cpp" />
+    <ClCompile Include="FilterTasksCommand.cpp" />
+    <ClCompile Include="FinalizeProjectCommand.cpp" />
+    <ClCompile Include="FinishStageCommand.cpp" />
+    <ClCompile Include="FMI JIRA.cpp" />
+    <ClCompile Include="GradeTaskCommand.cpp" />
+    <ClCompile Include="JoinProjectCommand.cpp" />
+    <ClCompile Include="Lecturer.cpp" />
+    <ClCompile Include="ListAllProjectsCommand.cpp" />
+    <ClCompile Include="ListAllTasksCommand.cpp" />
+    <ClCompile Include="ListProjectsCommand.cpp" />
+    <ClCompile Include="ListTasksCommand.cpp" />
+    <ClCompile Include="LoadCommand.cpp" />
+    <ClCompile Include="LoginCommand.cpp" />
+    <ClCompile Include="LogoutCommand.cpp" />
+    <ClCompile Include="MoveTaskToStageCommand.cpp" />
+    <ClCompile Include="MyTasksCommand.cpp" />
+    <ClCompile Include="Project.cpp" />
+    <ClCompile Include="RegisterCommand.cpp" />
+    <ClCompile Include="RemoveUserCommand.cpp" />
+    <ClCompile Include="ReviewTaskCommand.cpp" />
+    <ClCompile Include="SaveCommand.cpp" />
+    <ClCompile Include="SearchTasksCommand.cpp" />
+    <ClCompile Include="Stage.cpp" />
+    <ClCompile Include="StageReportCommand.cpp" />
+    <ClCompile Include="StartStageCommand.cpp" />
+    <ClCompile Include="Student.cpp" />
+    <ClCompile Include="StudentReportCommand.cpp" />
+    <ClCompile Include="System.cpp" />
+    <ClCompile Include="Task.cpp" />
+    <ClCompile Include="TeachingAssistant.cpp" />
+    <ClCompile Include="UpcomingTasksCommand.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="ViewProfileCommand.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddCommentCommand.h" />
+    <ClInclude Include="AddTagCommand.h" />
+    <ClInclude Include="AddUserToProjectCommand.h" />
+    <ClInclude Include="Administrator.h" />
+    <ClInclude Include="ApproveTaskCommand.h" />
+    <ClInclude Include="ArchiveProjectCommand.h" />
+    <ClInclude Include="AssignTaskCommand.h" />
+    <ClInclude Include="ChangePriorityCommand.h" />
+    <ClInclude Include="ChangeStatusCommand.h" />
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="CommandHandler.h" />
+    <ClInclude Include="Comment.h" />
+    <ClInclude Include="CreateProjectCommand.h" />
+    <ClInclude Include="CreateTaskCommand.h" />
+    <ClInclude Include="Date.h" />
+    <ClInclude Include="FilterTasksCommand.h" />
+    <ClInclude Include="FinalizeProjectCommand.h" />
+    <ClInclude Include="FinishStageCommand.h" />
+    <ClInclude Include="GradeTaskCommand.h" />
+    <ClInclude Include="IProjectManager.h" />
+    <ClInclude Include="IStageManager.h" />
+    <ClInclude Include="ITaskApprover.h" />
+    <ClInclude Include="JoinProjectCommand.h" />
+    <ClInclude Include="Lecturer.h" />
+    <ClInclude Include="ListAllProjectsCommand.h" />
+    <ClInclude Include="ListAllTasksCommand.h" />
+    <ClInclude Include="ListProjectsCommand.h" />
+    <ClInclude Include="ListTasksCommand.h" />
+    <ClInclude Include="LoadCommand.h" />
+    <ClInclude Include="LoginCommand.h" />
+    <ClInclude Include="LogoutCommand.h" />
+    <ClInclude Include="MoveTaskToStageCommand.h" />
+    <ClInclude Include="MyTasksCommand.h" />
+    <ClInclude Include="ParseHelpers.h" />
+    <ClInclude Include="Project.h" />
+    <ClInclude Include="ProjectStatus.h" />
+    <ClInclude Include="RegisterCommand.h" />
+    <ClInclude Include="RemoveUserCommand.h" />
+    <ClInclude Include="ReviewTaskCommand.h" />
+    <ClInclude Include="Roles.h" />
+    <ClInclude Include="SaveCommand.h" />
+    <ClInclude Include="SearchTasksCommand.h" />
+    <ClInclude Include="Stage.h" />
+    <ClInclude Include="StageReportCommand.h" />
+    <ClInclude Include="StageStatus.h" />
+    <ClInclude Include="StartStageCommand.h" />
+    <ClInclude Include="Student.h" />
+    <ClInclude Include="StudentReportCommand.h" />
+    <ClInclude Include="System.h" />
+    <ClInclude Include="Task.h" />
+    <ClInclude Include="TaskEnums.h" />
+    <ClInclude Include="TeachingAssistant.h" />
+    <ClInclude Include="UpcomingTasksCommand.h" />
+    <ClInclude Include="User.h" />
+    <ClInclude Include="ViewProfileCommand.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

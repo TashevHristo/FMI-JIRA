@@ -1,0 +1,30 @@
+#include "AssignTaskCommand.h"
+#include <iostream>
+#include <print>
+#include <vector>
+#include "System.h"
+#include "Student.h"
+
+void AssignTaskCommand::execute(const std::vector<std::string>& tokens)
+{
+    if (tokens.size() < 2) {
+        std::print("[Error] Usage: assign-task <task_id>\n");
+        return;
+    }
+    System& sys = System::getInstance();
+
+    auto studentResult = sys.getCurrentUser()->asStudent();
+    if (!studentResult) { std::print("[Error] {}\n", studentResult.error()); return; }
+
+    Project* project = sys.findProjectByTask(tokens[1]);
+    if (!project) { std::print("[Error] Task '{}' not found.\n", tokens[1]); return; }
+
+    auto result = studentResult.value()->assignTask(*project, tokens[1]);
+    if (!result) { std::print("[Error] {}\n", result.error()); return; }
+    std::print("[System] Task assigned to you.\n");
+}
+
+std::string AssignTaskCommand::getName() const
+{
+    return "assign-task";
+}
